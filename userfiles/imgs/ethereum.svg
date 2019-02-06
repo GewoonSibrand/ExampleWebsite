@@ -1,0 +1,16 @@
+ <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pi-ethereum">
+ <title id="pi-ethereum">Ethereum</title>
+ <path d="M35 0H3a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h32a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3z" style="isolation:isolate" fill="#5ec7dc" opacity=".3"></path>
+ <path d="M35 1a2 2 0 0 1 2 2v18a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h32" fill="#fff"></path>
+ <g fill="none" fill-rule="evenodd">
+ <rect fill-opacity=".07" fill="#5ec7dc" rx="3"></rect>
+ <rect fill="#FFF" x="1" y="1" rx="2"></rect>
+ <g fill-rule="nonzero">
+ <path fill="#5ec7dc" d="M18.658 4.25l-.102.346V14.63l.102.101 4.657-2.753z"></path>
+ <path fill="#d5f0f6" d="M18.658 4.25L14 11.978l4.658 2.754v-4.87z"></path>
+ <path fill="#5ec7dc" d="M18.658 15.613l-.058.07v3.575l.058.167 4.66-6.563z"></path>
+ <path fill="#d5f0f6" d="M18.658 19.425v-3.812L14 12.862z"></path>
+ <path fill="#2eb6d1" d="M18.658 14.731l4.657-2.753-4.657-2.117z"></path>
+ <path fill="#5ec7dc" d="M14 11.978l4.658 2.753v-4.87z"></path>
+ </g></g>
+ </svg>
