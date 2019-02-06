@@ -90,4 +90,34 @@ body { font-family: "Titillium Web", sans-serif; }
 .homepage .section_row_main .content p a { color: #fff; font-weight: bold; }
 
 /* Section Row 1 */
-.homepage .section_row_1 { background-color: #f0f0f0; }
+.homepage .section_row_1 { padding: 200px 0; background-color: #f0f0f0; }
+.homepage .section_row_1 .col-md-6:first-child h2 { font-size: 3.6rem; }
+.homepage .section_row_1 .col-md-6:last-child .content { max-width: 330px; }
+.homepage .section_row_1 .content a { color: #000; }
+
+/* Section Row 2 */
+.homepage .section_row_2 { padding: 150px 0; background-color: #fff; }
+.homepage .section_row_2 h2 { font-size: 3.6rem; }
+
+/* Section Row 3 */
+.homepage .section_row_3 {
+	padding: 150px 0;
+	background-image: url("../imgs/Globe_1_purplerotated.png"), url("../imgs/bg-bottom.jpg");
+	background-size: 1420px, cover;
+	position: relative;
+	background-position: 150% center, center bottom;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.homepage .section_row_3 .content { max-width: 340px; }
+.homepage .section_row_3 h2 { font-size: 3.6rem; }
+.homepage .section_row_3 strong a { color: #fff; }
+
+/* Footer */
+footer { background-color: #fff; }
+footer .footer_section_main { text-align: center; }
+footer .footer_section_main .row { justify-content: center; }
+footer .footer_section_main figure { display: inline-block; padding: 5px; }
+footer .footer_section_main figure img { height: 50px; }
+
+
