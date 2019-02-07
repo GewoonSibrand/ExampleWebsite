@@ -14,6 +14,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="userfiles/css/styles.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
 
@@ -71,11 +72,11 @@
   <div class="banner jumbotron jumbotron-fluid">
     <div class="container">
       <div id="particles-js"></div>
-      <div class="banner-content">
+      <div class="banner-content" data-aos="fade-up">
         <p class="banner-intro mb-0"><span>CRYPTO</span>CURRENCY</p>
         <p class="banner-middle">MINING FACILITY SOLUTIONS</p>
         <p class="banner-buttons">
-          <a class="btn" href="#">Blockchain</a> <a class="btn btn-default" href="/webshop">Webshop</a>
+          <a class="btn" href="#">Blockchain</a> <a class="btn btn-default" href="#">About Us</a>
         </p>
       </div>
     </div>
@@ -87,12 +88,12 @@
     <div class="section_row_main">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center pb-5">
+          <div class="col-md-12 text-center pb-5" data-aos="fade-down">
             <div class="content">
               <h1><span>Our</span>services</h1>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right">
             <div class="content">
               <figure>
                 <img class="img-fluid" src="userfiles/imgs/Hardware.png" alt="hardware.png">
@@ -105,7 +106,7 @@
               <p class="pt-4"><a href="#">Read More ></a></p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up">
             <div class="content">
               <figure>
                 <img class="img-fluid" src="userfiles/imgs/Installation.png" alt="installation.png">
@@ -118,7 +119,7 @@
               <p class="pt-4"><a href="#">Read More ></a></p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left">
             <div class="content">
               <figure>
                 <img class="img-fluid" src="userfiles/imgs/Facility.png" alt="">
@@ -139,12 +140,12 @@
     <div class="section_row_1">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right">
             <div class="content">
               <h2><span>About</span>skycrypto</h2>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left">
             <div class="content">
               <h2><span>Our</span>story</h2>
               <p><strong>SkyCrypto is a company registered in Amsterdam, Netherlands.</strong></p>
@@ -161,12 +162,12 @@
     <div class="section_row_2">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-md-12 text-center" data-aos="fade-down">
             <div class="content">
               <h2>
                 <span>Our</span>solutions
               </h2>
-              <div class="embed-responsive embed-responsive-16by9 mt-5">
+              <div class="embed-responsive embed-responsive-16by9 mt-5" data-aos="flip-down">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yIL9wLxG01M?rel=0"
                   allowfullscreen></iframe>
               </div>
@@ -180,12 +181,12 @@
     <div class="section_row_3">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left">
             <div class="content">
               <h2><span>Block</span>chain</h2>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right">
             <div class="content">
               <p><strong>
                   Sky Crypto Blockchain Wallet’s wallet is crafted to provide user-friendly transactions without
@@ -250,6 +251,10 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="userfiles/js/particles.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
