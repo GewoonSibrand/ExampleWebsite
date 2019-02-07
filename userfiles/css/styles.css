@@ -1,7 +1,13 @@
 /* Sibrand van Straten */
 
 /* Global */
-body { font-family: "Titillium Web", sans-serif; }
+body {
+	font-family: "Titillium Web", sans-serif;
+	overflow-x: hidden;
+	background-image: url("../imgs/bg-top.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-family: "Titillium Web", sans-serif; text-transform: uppercase; }
 .h1 span, .h2 span, .h3 span, .h4 span, .h5 span, .h6 span, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
@@ -13,6 +19,7 @@ header .navbar .nav-link { text-transform: uppercase; color: #fff; }
 header .navbar .nav-link:hover { color: #5ec7dc; }
 header .navbar .nav-item.active .nav-link { text-transform: uppercase; color: #5ec7dc; }
 header .navbar-expand-lg .navbar-nav .nav-link { padding-right: 20px; padding-left: 20px; }
+header .navbar-dark .navbar-nav .nav-link { color: #fff; } 
 header .navbar-expand-lg .navbar-collapse { justify-content: center; }
 header .socialmedia-header a .fab {
 	color: #fff;
@@ -29,11 +36,6 @@ header .navbar-dark .navbar-toggler { border-color: #5ec7dc; outline: none; }
 	background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(94, 199, 220, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 /* Homepage */
-.homepage {
-	background-image: url("../imgs/bg-top.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
 
 .homepage .section_row_main h1,
 .homepage .section_row_main h2,
@@ -223,13 +225,97 @@ header .navbar-dark .navbar-toggler { border-color: #5ec7dc; outline: none; }
 .homepage .section_row_3 h2 { font-size: 3.6rem; }
 .homepage .section_row_3 strong a { color: #fff; }
 
+/* Followup */
+.followup .jumbotron {
+	background-image: url("../imgs/Globe_1_pinkrotated.png");
+	background-repeat: no-repeat;
+	height: 330px;
+	background-size: 750px;
+	background-position: 50% 0%;
+	background-color: transparent;
+}
+.followup .jumbotron  { position: relative; color: #fff; }
+.followup .jumbotron .jumbo-title { font-size: 4.2rem; }
+.followup .jumbotron::after {
+	content: "";
+	left: 50%;
+	bottom: 0;
+	width: 1px;
+	height: 100px;
+	background-color: #fff;
+	position: absolute;
+}
+
+/* Followup Section Row Main */
+.followup .section_row_main { position: relative; padding: 200px 0; background-color: #fff; }
+.followup .section_row_main::after {
+	content: "";
+	left: 50%;
+	top: 0;
+	width: 1px;
+	height: 100px;
+	background-color: #000;
+	position: absolute;
+}
+.followup .section_row_main::before {
+	content: "";
+	left: 50%;
+	bottom: 0;
+	width: 1px;
+	height: 100px;
+	background-color: #000;
+	position: absolute;
+}
+.followup .section_row_main .container { position: relative; }
+.followup .section_row_main .container::before {
+	content: "";
+	left: 0;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	position: absolute;
+	border-radius: 50%;
+	top: -95px;
+	right: 0;
+	margin: -5px auto 0 auto;
+	border: 1px solid #000;
+}
+.followup .section_row_main h2,
+.followup .section_row_1 h2 { font-size: 3.6rem; }
+
+/* Followup Section Row 1 */
+.followup .section_row_1 { position: relative; padding: 200px 0; color: #fff; }
+.followup .section_row_1::after {
+	content: "";
+	left: 50%;
+	top: 0;
+	width: 1px;
+	height: 100px;
+	background-color: #fff;
+	position: absolute;
+}
+.followup .section_row_1 .container { position: relative; }
+.followup .section_row_1 .container::before {
+	content: "";
+	left: 0;
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	position: absolute;
+	top: -95px;
+	right: 0;
+	margin: -5px auto 0 auto;
+	border: 1px solid #fff;
+}
+
+/* About Us */
+
 /* Footer */
 footer { background-color: #fff; }
 footer .footer_section_main { text-align: center; }
 footer .footer_section_main .row { justify-content: center; }
 footer .footer_section_main figure { display: inline-block; padding: 5px; }
 footer .footer_section_main figure img { height: 50px; }
-
 
 @media (max-width: 1199px) { 
 	header .navbar-expand-lg .navbar-nav .nav-link { padding: 0 7px; }
