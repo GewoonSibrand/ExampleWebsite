@@ -1,3 +1,6 @@
+Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
+  particlesInit();
+});
 var FadeTransition = Barba.BaseTransition.extend({
     start: function() {
       /**

@@ -1,4 +1,5 @@
-particlesJS("particles-js", {
+function particlesInit() {
+    particlesJS("particles-js", {
     "particles": {
         "number": {
             "value": 80,
@@ -125,3 +126,4 @@ update = function() {
     requestAnimationFrame(update);
 };
 requestAnimationFrame(update);;
+}
