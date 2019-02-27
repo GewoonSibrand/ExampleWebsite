@@ -8,7 +8,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat; 
 }
-section { overflow-x: hidden; }
+section .row { overflow-x: hidden; }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-family: "Titillium Web", sans-serif; text-transform: uppercase; }
 .h1 span, .h2 span, .h3 span, .h4 span, .h5 span, .h6 span, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
