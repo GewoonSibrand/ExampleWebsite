@@ -1,1 +1,1 @@
-# Made in bootstrap to show my webdevelop skills ~ Sibrand
+# Made in bootstrap to showcase webdevelopment skills ~ Sibrand
