@@ -2,7 +2,7 @@
 - Example Website - (https://gewoonsibrand.github.io/ExampleWebsite/)
 
 # My other projects
-- Blogr website - (https://gewoonsibrand.github.io/Blogr/public/index.html)
+- Blogr - (https://github.com/GewoonSibrand/Blogr)
 
 ### Built with
 
